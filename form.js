@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
 
   const question = document.createElement("h2");
   question.classList.add("card__question");
-  question.textContent = newCardData.yourquestion;
+  question.textContent = newCardData.yourQuestion;
 
   const button = document.createElement("button");
   button.classList.add("card__button-answer");
@@ -24,7 +24,7 @@ form.addEventListener("submit", (event) => {
 
   const answer = document.createElement("p");
   //answer.classList.add("card__answer");
-  answer.textContent = newCardData.youranswer;
+  answer.textContent = newCardData.yourAnswer;
 
   const tagList = document.createElement("ul");
   tagList.classList.add("card__tag-list");
